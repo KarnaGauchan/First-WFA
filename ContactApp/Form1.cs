@@ -51,6 +51,7 @@ namespace ContactApp
                         sqlCmd.Parameters.AddWithValue("@Address", txtAddress.Text.Trim());
                         sqlCmd.ExecuteNonQuery();
                         MessageBox.Show("Updated Successfully Karna-Jai");
+                        MessageBox.Show("Updated Successfully Karna-Jai");
                         Reset();
                         getContactDetails();
                     }
