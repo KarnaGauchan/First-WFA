@@ -50,7 +50,7 @@ namespace ContactApp
                         sqlCmd.Parameters.AddWithValue("@MobileNumber", txtMobileNumber.Text.Trim());
                         sqlCmd.Parameters.AddWithValue("@Address", txtAddress.Text.Trim());
                         sqlCmd.ExecuteNonQuery();
-                        MessageBox.Show("Updated Successfully Karna");
+                        MessageBox.Show("Updated Successfully Karna-Jai");
                         Reset();
                         getContactDetails();
                     }
